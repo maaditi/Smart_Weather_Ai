@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Weather AI App</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">🏠 Home</a></li>
+        <li><a href="#moodFood">🍲 Mood & Food</a></li>
+        <li><a href="#map">🗺️ Map</a></li>
+        <li><a href="#flights">✈️ Flights</a></li>
+        <li><a href="#about">ℹ️ About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="card">
+    <h1>🌤️ Smart Weather AI</h1>
+    <p>Ask via voice or type a city below:</p>
+    <input type="text" id="cityInput" placeholder="Enter city" />
+    <div class="btn-group">
+      <button onclick="getWeather()">🔍 Search</button>
+      <button onclick="startVoice()">🎤 Speak</button>
+    </div>
+    <div id="weatherResult"></div>
+     <div id="weather-animation">
+  <div class="sun"></div>
+  <div class="clouds">
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+  </div>
+  <div class="rain"></div>
+</div>
+  </section>
+
+  <section id="moodFood" class="card">
+    <h2>🍽️ Mood & Food Suggestion</h2>
+    <div id="moodFoodSuggestion"></div>
+  </section>
+
+  <section id="map" class="card">
+    <h2>📍 City Map View</h2>
+    <iframe id="cityMap" allowfullscreen></iframe>
+  </section>
+
+  <section id="flights" class="card">
+    <h2>🛫 Flight Updates</h2>
+    <div id="flightStatus"></div>
+  </section>
+
+  <section id="about" class="card">
+    <h2>🧠 About This App</h2>
+    <p>This AI-enhanced weather app tells you the mood, food, and flight status based on your city and weather using voice or text input.</p>
+  </section>
+
+ 
+
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
