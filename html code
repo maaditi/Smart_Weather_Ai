@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Smart Weather AI App</title>
-  <link rel="stylesheet" href="style2.css" />
+ <link rel="stylesheet" href="css file">
+
 </head>
 <body>
 
@@ -61,7 +62,7 @@
 
  
 
-  <script src="script.js"></script>
+<script src="js file"></script>
   
 
 </body>
